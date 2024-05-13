@@ -1,0 +1,9 @@
+@technical.assessment.api_HostAddress = http://localhost:5284
+
+### Send ConvertAmountToWords POST request with json body
+POST {{technical.assessment.api_HostAddress}}/api/amountconversion
+Content-Type: application/json
+
+{
+  "amount": "123.45"
+}
